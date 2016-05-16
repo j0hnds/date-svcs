@@ -1,0 +1,25 @@
+{
+  "name": "date-svcs",
+  "version": "1.0.0",
+  "description": "A set of date utilities.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tape test/**/*-test.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/j0hnds/date-svcs.git"
+  },
+  "keywords": [
+    "date",
+    "utilities"
+  ],
+  "author": "Dave Sieh",
+  "license": "MIT",
+  "devDependencies": {
+    "blue-tape": "^0.2.0"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.4"
+  }
+}
