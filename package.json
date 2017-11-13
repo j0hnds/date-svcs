@@ -1,6 +1,6 @@
 {
   "name": "date-svcs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A set of date utilities.",
   "main": "lib/index.js",
   "scripts": {
@@ -20,7 +20,6 @@
     "blue-tape": "^0.2.0"
   },
   "dependencies": {
-    "debug": "^2.2.0",
     "moment-timezone": "^0.5.4"
   }
 }
